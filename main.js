@@ -13080,7 +13080,7 @@ ae.formToJSON = e=>Ld(S.isHTMLForm(e) ? new FormData(e) : e);
 ae.HttpStatusCode = uy;
 ae.default = ae;
 const Po = ae
-  , _o = "https://simple-crud-app-omip.onrender.com/api/products/"
+  , _o = "https://misspantim.vercel.app/api/products/"
   , ly = async()=>(await Po.get(`${_o}`)).data
   , ay = async e=>(await Po.post(`${_o}`, e)).data
   , cy = async(e,t)=>(await Po.put(`${_o}${e}`, t)).data
